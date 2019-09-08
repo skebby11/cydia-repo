@@ -11,7 +11,6 @@ SHA256: bd4c4e549ff7297c86c3a7f887d2d22f0a554dbc8450d28af990dcb8dbfc4d51
 Section: Widgets
 Description: A live wallpaper based on the time of the day!
 Author: Sebastiano Riva <skebby@icloud.com>
-Depiction: https://skebby11.github.io/cydia-repo/depictions/daycircle
 Name: Day Circle Live Wallpaper
 
 Package: me.skebby.snowthemexen
@@ -27,22 +26,21 @@ SHA256: 0c0db29805737b575eb43f3d1f0f125e3b779139e6f84c214937c218ed804d98
 Section: Widgets
 Description: A fresh and live theme for XEN html!
 Author: Sebastiano Riva <skebby@icloud.com>
-Depiction: https://skebby11.github.io/cydia-repo/depictions/snowtheme
 Name: Snow Live Theme for Xen HTML
 
 Package: me.skebby.win10LS
-Version: 1.2.0-2
+Version: 1.2.0-3
 Architecture: iphoneos-arm
 Maintainer: Sebastiano Riva <skebby@icloud.com>
 Depends: com.matchstic.xenhtml
-Filename: debs/me.skebby.win10LS_1.2.0-2_iphoneos-arm.deb
-Size: 1600916
-MD5sum: 9075352ce2136835cb57001d477b6de8
-SHA1: ac5ac386c9473814c77680db8371a0edc0de4781
-SHA256: b5ec31c85939a12c6c95f7d68b587ed5e7265698b1eb7a79cf5292b961d73d4d
+Filename: debs/me.skebby.win10LS_1.2.0-3_iphoneos-arm.deb
+Size: 1600984
+MD5sum: d33b44910117600d5ad7540bbceaacfc
+SHA1: 00a3af8441c29fc4aa12063d28086c373d609fc1
+SHA256: 091e51d310035068a09d568f02b22a0087c02d414ab3a77e7e1b0b4a1eab76c1
 Section: Widgets
 Description: A Windows 10 themed lockscreen!
 Author: Sebastiano Riva <skebby@icloud.com>
-Depiction: https://skebby11.github.io/cydia-repo/depictions/win10LS
+Depiction: https://www.sebastianoriva.it/repo/depictions/?p=me.skebby.win10LS
 Name: Windows 10 Lockscreen
 
