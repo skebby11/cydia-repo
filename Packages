@@ -13,6 +13,7 @@ Description: A live wallpaper based on the time of the day!
 Author: Sebastiano Riva <skebby@icloud.com>
 Name: Day Circle Live Wallpaper
 Depiction: https://skebby11.github.io/cydia-repo/depictions/me.skebby.daycirclewallpaper/
+Icon: https://skebby11.github.io/cydia-repo/icons/me.skebby.daycirclewallpaper.png
 
 Package: me.skebby.snowthemexen
 Version: 1.0.0-3
@@ -29,6 +30,7 @@ Description: A fresh and live theme for XEN html!
 Author: Sebastiano Riva <skebby@icloud.com>
 Name: Snow Live Theme for Xen HTML
 Depiction: https://skebby11.github.io/cydia-repo/depictions/me.skebby.snowthemexen/
+Icon: https://skebby11.github.io/cydia-repo/icons/me.skebby.snowthemexen.png
 
 Package: me.skebby.win10LS
 Version: 1.2.0-3
