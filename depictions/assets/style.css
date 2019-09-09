@@ -1,0 +1,102 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import url('https://fonts.googleapis.com/css?family=Lexend+Deca&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #131313;
+	color: #fff;
+	font-family: 'Lexend Deca', sans-serif;
+}
+
+a {
+	color: #1160FF;
+	text-decoration: none;
+}
+
+.toplogo{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;	
+	width: 20%;
+
+}
+
+.presentation {
+	width: 100%;
+	padding: 30px 0;
+}
+
+.icon {
+	float: left;
+	margin-right: 15px;
+}
+
+.icon img {
+	width: 64px;
+	height: auto;
+}
+
+#presversion {
+	font-size: 80%;
+	margin-left: 10px;
+}
+
+.alert-success{
+	margin: 20px 0;
+	color: #fff;
+	background-color: #23a352
+}
+
+h4 {
+	font-weight: bold;
+} 
+
+li {
+	margin-left: 5px;
+}
+
+.screenshots {
+	display: block;
+	overflow-x: scroll;
+	padding: 20px 0;
+}
+
+.screenshots .single {
+	border-radius: 10px;
+	display: inline-block;
+	padding: 5px 3px;
+	width: 32.4%;
+}
+
+.single img{
+	max-width: 100%;
+}
+
+.changes {
+	padding-bottom: 20px;
+}
+
+#lastchange{
+	font-size: 80%;
+}
+
+.footer{
+	padding-bottom: 20px;
+}
+
+.card, .list-group-item{
+	background-color: #131313;
+	color: #fff;
+	border-color: #fff;
+}
+
+.bottomtext {
+	font-size: 80%;
+	padding: 20px 0;
+}

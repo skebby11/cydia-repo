@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+	<script src="https://kit.fontawesome.com/00c5ac1190.js"></script>
+	 
+	<link rel="stylesheet" href="../assets/style.css">
+	  
+	<script>
+		
+	var tweakName = "Windows 10 Lockscreen";
+	var packageName = "me.skebby.win10LS";
+	var tweakVersion = "1.2.0-3";
+	var screenshots = ["screen1", "screen2", "screen3"];
+	var description = "";
+	var depends = "";
+	var author = "Sebastiano Riva";
+	var lastChange = "Toggle icon and e-mail";
+		
+		
+		
+	window.onload = function() {
+       //when the document is finished loading, replace everything
+       //between the <a ...> </a> tags with the value of splitText
+		
+		
+		// page title
+    	document.getElementById("titletweakname").innerHTML=tweakName;
+		
+		// package title
+    	document.getElementById("presname").innerHTML=tweakName;
+		
+		// icon 
+		document.getElementById('tweaklogo').src = "../../icons/" + packageName + ".png";
+		
+		// package version
+    	document.getElementById("presversion").innerHTML=tweakVersion;
+		
+		// changelog version
+    	document.getElementById("clversion").innerHTML=tweakVersion;
+		
+		// package author
+    	document.getElementById("presauthor").innerHTML=author;
+		
+		// descr
+    	document.getElementById("descr").innerHTML=description;
+		
+		// last change
+    	document.getElementById("lastchange").innerHTML=lastChange;
+	} 
+		
+	</script>
+	  
+    <title id="titletweakname"></title>
+  </head>
+	<body>
+		<div class="container">
+			<div class="toplogo">
+				<img src="../assets/slogo.png" alt="sebastiano riva logo">
+			</div>
+			
+			<div class="presentation">
+				<div class="icon">
+					<img src="../assets/slogo.png" id="tweaklogo" alt="tweak icon">
+				</div>
+				<div class="tweaktitle">
+					<span id="presname"></span> 
+					<span id="presversion"></span> <br>
+					<span id="presauthor"></span>
+				</div>
+			</div>
+			
+			<div class="alert alert-success" role="alert">
+			  Compatible with IOS 10+ and A12
+			</div>
+			
+			<div class="description"> <h4>Description:</h4>
+			<p id="descr"><h5>Get Windows 10 lockscreen customized for you!</h5> <br>
+
+				This widget, made for XenHTML will bring you a windows 10 inspired lockscreen, where you'll be able to customize many things: <br>
+
+				<ul>
+				<li>Custom name and surname</li>
+				<li>Custom e-mail and choose to hide or display it</li>
+				<li>Hide or display user icon, in dark or light mode</li>
+				<li>Choose text color between white or black</li>
+				<li>Choose to show the clock</li>
+				<li>Choose to show the date</li>
+				<li>Choose to show the week day</li>
+				<li>Choose to show the default windows 10 background or your phone's one</li>
+				</ul>
+
+				While editing settings, you may encount a permission error, simply fix following this <a href="https://www.reddit.com/r/jailbreak/comments/8btsrl/help_keep_getting_this_error_when_trying_to/">Reddit post</a> guide or following the steps on the video:
+				</p>
+				<iframe width="350px" height="auto" src="https://www.youtube.com/embed/S7Ywcu6if_k?controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			</div>
+		
+			<div class="screenshots"> 		
+			<h4>Screenshots:</h4>
+				<div class="single">
+					<a href="" id="ascreen1">
+					<img src="../assets/slogo.png" id="screen1" alt="">
+					</a>
+				</div>
+				<div class="single">
+					<a href="" id="ascreen2">
+					<img src="../assets/slogo.png" id="screen2" alt="">
+					</a>
+				</div>
+				<div class="single">
+					<a href="" id="ascreen3">
+					<img src="../assets/slogo.png" id="screen3" alt="">
+					</a>
+				</div>
+			</div>
+		
+			<h4>Changelog:</h4>
+			<div class="changes">
+				<p>Last version <span class="badge badge-secondary" id="clversion"></span></p>
+				<li id="lastchange"></li>
+			</div>
+		
+			<h4>Contact me:</h4>
+			<div class="footer">
+				<div class="card">
+				  <ul class="list-group list-group-flush">
+					<a href="https://paypal.me/sebastianoriva?locale.x=it_IT"><li class="list-group-item"><i class="fab fa-paypal"></i> &nbsp;Donation</li></a>
+					<a href="https://twitter.com/skebby11"><li class="list-group-item"><i class="fab fa-twitter"></i> &nbsp;Twitter</li></a>
+					<a href="https://facebook.com/rivasebastiano"><li class="list-group-item"><i class="fab fa-facebook-square"></i> &nbsp;Facebook</li></a>
+					<a href="https://github.com/skebby11"><li class="list-group-item"><i class="fab fa-github"></i> &nbsp;Github</li></a>
+					<a href="https://www.sebastianoriva.it/"><li class="list-group-item"><i class="fas fa-globe"></i> &nbsp;My website</li></a>
+				  </ul>
+				</div>
+				
+				<div align="center" class="bottomtext">&copy Skebby Repo by <a href="https://www.sebastianoriva.it" target="_blank">Sebastiano Riva</a></div>
+			</div>
+			
+		</div>
+
+	  
+	  
+	<script>
+		// icon 
+		document.getElementById('tweaklogo').src = "../../icons/" + packageName + ".png";
+		
+		// screen1 
+		document.getElementById('screen1').src = "screenshots/" + screenshots[0] + ".png";
+		// screen2 
+		document.getElementById('screen2').src = "screenshots/" + screenshots[1] + ".png";
+		// screen3 
+		document.getElementById('screen3').src = "screenshots/" + screenshots[2] + ".png";
+		
+		// screen1 link 
+		document.getElementById('ascreen1').href = "screenshots/" + screenshots[0] + ".png";
+		// screen2 link
+		document.getElementById('ascreen2').href = "screenshots/" + screenshots[1] + ".png";
+		// screen3 link
+		document.getElementById('ascreen3').href = "screenshots/" + screenshots[2] + ".png";
+	</script>
+	  
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
