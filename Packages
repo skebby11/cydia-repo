@@ -12,6 +12,7 @@ Section: Widgets
 Description: A live wallpaper based on the time of the day!
 Author: Sebastiano Riva <skebby@icloud.com>
 Name: Day Circle Live Wallpaper
+Depiction: https://skebby11.github.io/cydia-repo/depictions/me.skebby.daycirclewallpaper/
 
 Package: me.skebby.snowthemexen
 Version: 1.0.0-3
@@ -27,6 +28,7 @@ Section: Widgets
 Description: A fresh and live theme for XEN html!
 Author: Sebastiano Riva <skebby@icloud.com>
 Name: Snow Live Theme for Xen HTML
+Depiction: https://skebby11.github.io/cydia-repo/depictions/me.skebby.snowthemexen/
 
 Package: me.skebby.win10LS
 Version: 1.2.0-3
@@ -41,6 +43,7 @@ SHA256: 091e51d310035068a09d568f02b22a0087c02d414ab3a77e7e1b0b4a1eab76c1
 Section: Widgets
 Description: A Windows 10 themed lockscreen!
 Author: Sebastiano Riva <skebby@icloud.com>
-Depiction: https://www.sebastianoriva.it/repo/depictions/?p=me.skebby.win10LS
 Name: Windows 10 Lockscreen
+Depiction: hhttps://skebby11.github.io/cydia-repo/depictions/me.skebby.win10LS/
+Icon: https://skebby11.github.io/cydia-repo/icons/me.skebby.win10LS.png
 
