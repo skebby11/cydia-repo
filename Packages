@@ -44,6 +44,6 @@ Section: Widgets
 Description: A Windows 10 themed lockscreen!
 Author: Sebastiano Riva <skebby@icloud.com>
 Name: Windows 10 Lockscreen
-Depiction: hhttps://skebby11.github.io/cydia-repo/depictions/me.skebby.win10LS/
+Depiction: https://skebby11.github.io/cydia-repo/depictions/me.skebby.win10LS/
 Icon: https://skebby11.github.io/cydia-repo/icons/me.skebby.win10LS.png
 
